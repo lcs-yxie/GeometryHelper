@@ -46,21 +46,30 @@ struct RectangleView: View {
                 Slider (value: $currentRectangle.width, in: 0...100)
                 Text("100")
             }
-            Text("Length")
-                .bold()
-            Text("\(currentRectangle.length)")
-            Text("Width")
-                .bold()
-            Text("\(currentRectangle.width)")
-            Text("Surface Area")
-                .bold()
-            Text("\(currentRectangle.surface_area)")
-            Text("Perimeter")
-                .bold()
-            Text("\(currentRectangle.Perimeter)")
+            
+            LazyVStack (alignment: .leading){
+                Text("Length")
+                    .bold()
+                Text("\(currentRectangle.length)")
+                    .padding(.bottom, 20)
+                
+                Text("Width")
+                    .bold()
+                Text("\(currentRectangle.width)")
+                    .padding(.bottom, 20)
+                
+                Text("Surface Area")
+                    .bold()
+                Text("\(currentRectangle.surface_area)")
+                    .padding(.bottom, 20)
+                
+                Text("Perimeter")
+                    .bold()
+                Text("\(currentRectangle.Perimeter)")
+                    .padding(.bottom, 20)
+                
+            }
 
-            
-            
             
         }
         .padding()
