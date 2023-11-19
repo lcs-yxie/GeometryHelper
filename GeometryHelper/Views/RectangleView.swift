@@ -9,7 +9,7 @@ import SwiftUI
 
 
 
-struct Rectangle_View: View {
+struct RectangleView: View {
     
     
     
@@ -20,6 +20,7 @@ struct Rectangle_View: View {
     //MARK: Computed properties
     var body: some View {
         
+      
         
         VStack{
             
@@ -27,10 +28,10 @@ struct Rectangle_View: View {
             HStack{
                 Text("Rectangle")
                     .padding(.bottom, 200)
-                    .font(Font.system(size: 38))
-                Image("Circle")
+                    .font(Font.system(size: 35))
+                Image("Rec")
                     .resizable()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 150, height: 100)
             }
 
             HStack{
@@ -38,15 +39,25 @@ struct Rectangle_View: View {
                 Slider (value: $currentRectangle.length, in: 0...100)
                 Text("100")
             }
-            Text("Length")
+
             
             HStack{
                 Text("0")
                 Slider (value: $currentRectangle.width, in: 0...100)
                 Text("100")
             }
+            Text("Length")
+                .bold()
+            Text("\(currentRectangle.length)")
             Text("Width")
-            
+                .bold()
+            Text("\(currentRectangle.width)")
+            Text("Surface Area")
+                .bold()
+            Text("\(currentRectangle.surface_area)")
+            Text("Perimeter")
+                .bold()
+            Text("\(currentRectangle.Perimeter)")
 
             
             
@@ -57,5 +68,5 @@ struct Rectangle_View: View {
 }
 
 #Preview {
-    Rectangle_View()
+    RectangleView()
 }
