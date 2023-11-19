@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		647BFBB12B06F19B009DE90A /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBB02B06F19B009DE90A /* GeometryHelperApp.swift */; };
-		647BFBB32B06F19B009DE90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBB22B06F19B009DE90A /* ContentView.swift */; };
 		647BFBB52B06F19C009DE90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647BFBB42B06F19C009DE90A /* Assets.xcassets */; };
 		647BFBB82B06F19C009DE90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647BFBB72B06F19C009DE90A /* Preview Assets.xcassets */; };
-		647BFBC22B06F19C009DE90A /* GeometryHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBC12B06F19C009DE90A /* GeometryHelperTests.swift */; };
-		647BFBCC2B06F19C009DE90A /* GeometryHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBCB2B06F19C009DE90A /* GeometryHelperUITests.swift */; };
-		647BFBCE2B06F19C009DE90A /* GeometryHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBCD2B06F19C009DE90A /* GeometryHelperUITestsLaunchTests.swift */; };
+		648180E62B09A5AE006AEFE1 /* CricleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648180E52B09A5AE006AEFE1 /* CricleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +33,11 @@
 /* Begin PBXFileReference section */
 		647BFBAD2B06F19B009DE90A /* GeometryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647BFBB02B06F19B009DE90A /* GeometryHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperApp.swift; sourceTree = "<group>"; };
-		647BFBB22B06F19B009DE90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		647BFBB42B06F19C009DE90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647BFBB72B06F19C009DE90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		647BFBBD2B06F19C009DE90A /* GeometryHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		647BFBC12B06F19C009DE90A /* GeometryHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperTests.swift; sourceTree = "<group>"; };
 		647BFBC72B06F19C009DE90A /* GeometryHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		647BFBCB2B06F19C009DE90A /* GeometryHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperUITests.swift; sourceTree = "<group>"; };
-		647BFBCD2B06F19C009DE90A /* GeometryHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		648180E52B09A5AE006AEFE1 /* CricleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				647BFBAF2B06F19B009DE90A /* GeometryHelper */,
-				647BFBC02B06F19C009DE90A /* GeometryHelperTests */,
-				647BFBCA2B06F19C009DE90A /* GeometryHelperUITests */,
 				647BFBAE2B06F19B009DE90A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				647BFBB02B06F19B009DE90A /* GeometryHelperApp.swift */,
-				647BFBB22B06F19B009DE90A /* ContentView.swift */,
+				648180E42B09A570006AEFE1 /* Model */,
+				648180E32B09A557006AEFE1 /* Views */,
 				647BFBB42B06F19C009DE90A /* Assets.xcassets */,
 				647BFBB62B06F19C009DE90A /* Preview Content */,
 			);
@@ -110,21 +103,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		647BFBC02B06F19C009DE90A /* GeometryHelperTests */ = {
+		648180E32B09A557006AEFE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				647BFBC12B06F19C009DE90A /* GeometryHelperTests.swift */,
+				648180E52B09A5AE006AEFE1 /* CricleView.swift */,
 			);
-			path = GeometryHelperTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		647BFBCA2B06F19C009DE90A /* GeometryHelperUITests */ = {
+		648180E42B09A570006AEFE1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				647BFBCB2B06F19C009DE90A /* GeometryHelperUITests.swift */,
-				647BFBCD2B06F19C009DE90A /* GeometryHelperUITestsLaunchTests.swift */,
 			);
-			path = GeometryHelperUITests;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647BFBB32B06F19B009DE90A /* ContentView.swift in Sources */,
+				648180E62B09A5AE006AEFE1 /* CricleView.swift in Sources */,
 				647BFBB12B06F19B009DE90A /* GeometryHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647BFBC22B06F19C009DE90A /* GeometryHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647BFBCE2B06F19C009DE90A /* GeometryHelperUITestsLaunchTests.swift in Sources */,
-				647BFBCC2B06F19C009DE90A /* GeometryHelperUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
