@@ -11,7 +11,7 @@ import SwiftUI
 struct GeometryHelperApp: App {
     var body: some Scene {
         WindowGroup {
-            CricleView()
+            Rectangle_View()
         }
     }
 }

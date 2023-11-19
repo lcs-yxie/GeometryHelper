@@ -10,8 +10,8 @@
 		647BFBB12B06F19B009DE90A /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BFBB02B06F19B009DE90A /* GeometryHelperApp.swift */; };
 		647BFBB52B06F19C009DE90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647BFBB42B06F19C009DE90A /* Assets.xcassets */; };
 		647BFBB82B06F19C009DE90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647BFBB72B06F19C009DE90A /* Preview Assets.xcassets */; };
-		648180E62B09A5AE006AEFE1 /* CricleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648180E52B09A5AE006AEFE1 /* CricleView.swift */; };
-		648180EA2B09A77C006AEFE1 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648180E92B09A77C006AEFE1 /* Circle.swift */; };
+		648180E62B09A5AE006AEFE1 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648180E52B09A5AE006AEFE1 /* RectangleView.swift */; };
+		648180EA2B09A77C006AEFE1 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648180E92B09A77C006AEFE1 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		647BFBB72B06F19C009DE90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		647BFBBD2B06F19C009DE90A /* GeometryHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		647BFBC72B06F19C009DE90A /* GeometryHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		648180E52B09A5AE006AEFE1 /* CricleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricleView.swift; sourceTree = "<group>"; };
-		648180E92B09A77C006AEFE1 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		648180E52B09A5AE006AEFE1 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		648180E92B09A77C006AEFE1 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		648180E32B09A557006AEFE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				648180E52B09A5AE006AEFE1 /* CricleView.swift */,
+				648180E52B09A5AE006AEFE1 /* RectangleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 		648180E42B09A570006AEFE1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				648180E92B09A77C006AEFE1 /* Circle.swift */,
+				648180E92B09A77C006AEFE1 /* Rectangle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648180E62B09A5AE006AEFE1 /* CricleView.swift in Sources */,
+				648180E62B09A5AE006AEFE1 /* RectangleView.swift in Sources */,
 				647BFBB12B06F19B009DE90A /* GeometryHelperApp.swift in Sources */,
-				648180EA2B09A77C006AEFE1 /* Circle.swift in Sources */,
+				648180EA2B09A77C006AEFE1 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
