@@ -10,16 +10,21 @@ import SwiftUI
 struct CricleView: View {
     
     //MARK: Stored properties
-    @State var radius = 10.0
+    @State var currentCircle = Circle(radius: 10.0)
     
     
     //MARK: Computed properties
     var body: some View {
         VStack{
-            Text("\(radius)")
+            
+            Image("Circle")
+                .resizable()
+                .frame(width: 200, height: 200)
+            
+            Text("\(currentCircle.radius)")
                 .font(.largeTitle)
 
-            Slider(value: $radius, in: 0...100)
+            Slider (value: $currentCircle.radius, in: 0...100)
         }
         .padding()
     }
